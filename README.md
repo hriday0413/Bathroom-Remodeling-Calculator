@@ -92,5 +92,7 @@ bathroom-calculator/
 
 ## Author
 Hriday Shankar
+
 Northeastern University
+
 Contact me: shankar.hr@northeastern.edu
