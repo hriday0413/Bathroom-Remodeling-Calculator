@@ -82,13 +82,7 @@ bathroom-calculator/
 - **Baseboard**: `perimeter - shower_base_perimeter`
 - **Paint Coverage**: `drywall_area + wallboard_area`
 
-## Future Enhancements
-- [ ] Cost estimation integration
-- [ ] PDF export functionality
-- [ ] Material supplier database integration
-- [ ] Mobile-responsive improvements
-- [ ] Save/load project configurations
-- [ ] Multi-language support
+
 
 ## Author
 Hriday Shankar
