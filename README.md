@@ -37,19 +37,24 @@ A comprehensive web-based calculator designed for All Access LLC to streamline t
 1. Clone the repository:
 ```bash
 git clone [repository-url]
-cd bathroom-calculator
+cd Bathroom-Remodeling-Calculator
 ```
 
-2. Open `index.html` in a web browser or use a local server:
+2. Start a local server (required for React CDN to work):
 ```bash
-# Using Python
-python -m http.server 8000
+# Using Python 3
+python3 -m http.server 8000
 
 # Using Node.js
-npx serve
+npx serve -p 8000
+
+# Using PHP
+php -S localhost:8000
 ```
 
-3. Navigate to `http://localhost:8000` in your browser
+3. Navigate to `http://localhost:8000/index-complete.html` in your browser
+
+**Note**: You must use a local server - opening the HTML file directly (file://) will not work due to CORS restrictions with the React CDN.
 
 ### Deployment
 The application is configured for automatic deployment via Netlify. Simply push changes to the main branch to trigger a new deployment.
